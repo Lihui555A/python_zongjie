@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>996</width>
+    <height>694</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>996</width>
+    <height>694</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>996</width>
+    <height>694</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QWidget" name="main_widget" native="true">
+      <layout class="QGridLayout" name="gridLayout_2" columnstretch="2,8" columnminimumwidth="0,0">
+       <item row="0" column="0">
+        <widget class="QWidget" name="left_widget" native="true">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="8" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_5">
+            <property name="text">
+             <string>我的收藏</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/add.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/add.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_7">
+            <property name="text">
+             <string>关注我们</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/action_log.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/action_log.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="left_mini">
+            <property name="maximumSize">
+             <size>
+              <width>51</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="left_visit">
+            <property name="maximumSize">
+             <size>
+              <width>43</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="left_close">
+            <property name="maximumSize">
+             <size>
+              <width>38</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="9" column="0" colspan="3">
+           <widget class="QPushButton" name="left_label_3">
+            <property name="text">
+             <string>联系与帮助</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_6">
+            <property name="text">
+             <string>反馈建议</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/acorn.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/acorn.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button">
+            <property name="text">
+             <string>在线FM</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/at_sign.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/at_sign.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_3">
+            <property name="text">
+             <string>本地音乐</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/add_on.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/add_on.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_4">
+            <property name="text">
+             <string>下载管理</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/action.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/action.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QPushButton" name="left_label">
+            <property name="text">
+             <string>每日推荐</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="3">
+           <widget class="QPushButton" name="letf_button">
+            <property name="text">
+             <string>华语流行</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/acoustic_guitar.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/acoustic_guitar.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0" colspan="3">
+           <widget class="QPushButton" name="left_label_2">
+            <property name="text">
+             <string>我的音乐</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_2">
+            <property name="text">
+             <string>热门MV</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/draw_eraser.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/draw_eraser.png</iconset>
+            </property>
+           </widget>
+          </item>
+          <item row="12" column="0" colspan="3">
+           <widget class="QPushButton" name="left_button_8">
+            <property name="text">
+             <string>遇到问题</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/agp.png</normaloff>WinForm开发经典图标素材 3870个图标/icon(3800)/agp.png</iconset>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QWidget" name="right_widget" native="true">
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="4" column="0">
+           <widget class="QWidget" name="songlist_widget" native="true">
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="0" column="0">
+              <widget class="QWidget" name="right_newsong_widget" native="true">
+               <layout class="QGridLayout" name="gridLayout_10">
+                <item row="5" column="0">
+                 <widget class="QPushButton" name="pushButton_2">
+                  <property name="text">
+                   <string>sjdfkjsdklfj jdflskdj </string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="4" column="0">
+                 <widget class="QPushButton" name="pushButton_4">
+                  <property name="text">
+                   <string>sjdfjsklfj djfklsjdk jdfksjdk </string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="0">
+                 <widget class="QPushButton" name="pushButton">
+                  <property name="text">
+                   <string>kdfjslfkjsd fskjfksdjfs  djsfjs</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="3" column="0">
+                 <widget class="QPushButton" name="pushButton_3">
+                  <property name="text">
+                   <string>jfklsjdlkfjsdlk  djsfkjsdlkfjs jdslkfjsk</string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QPushButton" name="pushButton_5">
+                  <property name="text">
+                   <string>sdjflsjfks jsdkfjskdjf dsjkfjs </string>
+                  </property>
+                 </widget>
+                </item>
+                <item row="2" column="0">
+                 <widget class="QPushButton" name="pushButton_6">
+                  <property name="text">
+                   <string>sjfslkjfkls  fjskldjflskjf  jskldjflsdk</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QWidget" name="right_playlist_widget" native="true">
+               <layout class="QGridLayout" name="gridLayout_11">
+                <item row="0" column="0">
+                 <widget class="QToolButton" name="toolButton">
+                  <property name="text">
+                   <string>无法打破的肌肤快</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>05530725a658de394b63f307e65b0c44.jpg</normaloff>05530725a658de394b63f307e65b0c44.jpg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>100</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="toolButtonStyle">
+                   <enum>Qt::ToolButtonTextUnderIcon</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item row="0" column="1">
+                 <widget class="QToolButton" name="toolButton_2">
+                  <property name="text">
+                   <string>发送到发送到发送</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>cf61536f3227d533b5910789b217005d.jpg</normaloff>cf61536f3227d533b5910789b217005d.jpg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>100</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="toolButtonStyle">
+                   <enum>Qt::ToolButtonTextUnderIcon</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="0">
+                 <widget class="QToolButton" name="toolButton_3">
+                  <property name="text">
+                   <string>对方水电费是的浮</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>ee52bf97efcc18cef34bc1fe6848a87a.png</normaloff>ee52bf97efcc18cef34bc1fe6848a87a.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>100</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="toolButtonStyle">
+                   <enum>Qt::ToolButtonTextUnderIcon</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item row="1" column="1">
+                 <widget class="QToolButton" name="toolButton_4">
+                  <property name="text">
+                   <string>尖峰时刻路径分离</string>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>bce5548245bc51c4ccc7f350651f7153.jpeg</normaloff>bce5548245bc51c4ccc7f350651f7153.jpeg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>100</width>
+                    <height>100</height>
+                   </size>
+                  </property>
+                  <property name="toolButtonStyle">
+                   <enum>Qt::ToolButtonTextUnderIcon</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QProgressBar" name="progressBar">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>3</height>
+             </size>
+            </property>
+            <property name="value">
+             <number>24</number>
+            </property>
+            <property name="textVisible">
+             <bool>false</bool>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="textDirection">
+             <enum>QProgressBar::TopToBottom</enum>
+            </property>
+            <property name="format">
+             <string>%p%</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QWidget" name="recommend_widget" native="true">
+            <layout class="QGridLayout" name="gridLayout_6">
+             <item row="0" column="0">
+              <widget class="QLabel" name="right_recommend_label">
+               <property name="text">
+                <string>今日推荐</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QWidget" name="right_recommend_widge" native="true">
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="0" column="0">
+              <widget class="QToolButton" name="recommend_button_1">
+               <property name="text">
+                <string>我的最爱</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>4dac789a58ab6be1c0ad1ffb7cfcc394.jpeg</normaloff>4dac789a58ab6be1c0ad1ffb7cfcc394.jpeg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QToolButton" name="recommend_button_2">
+               <property name="text">
+                <string>你喜欢的</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>9ce117e72f233ebfdc8adcc6abff22ce.jpg</normaloff>9ce117e72f233ebfdc8adcc6abff22ce.jpg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QToolButton" name="recommend_button_3">
+               <property name="text">
+                <string>他喜欢的</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>14c53ab8c948dbd1a22ea001fb0f0f53.jpg</normaloff>14c53ab8c948dbd1a22ea001fb0f0f53.jpg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QToolButton" name="recommend_button_4">
+               <property name="text">
+                <string>她喜欢的</string>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>bce5548245bc51c4ccc7f350651f7153.jpeg</normaloff>bce5548245bc51c4ccc7f350651f7153.jpeg</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>100</width>
+                 <height>100</height>
+                </size>
+               </property>
+               <property name="toolButtonStyle">
+                <enum>Qt::ToolButtonTextUnderIcon</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QWidget" name="new_song_widget" native="true">
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0">
+              <widget class="QLabel" name="right_label">
+               <property name="text">
+                <string>最新歌曲</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLabel" name="right_label_2">
+               <property name="text">
+                <string>热门歌单</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QWidget" name="right_bar_widget" native="true">
+            <layout class="QGridLayout" name="gridLayout_5">
+             <item row="0" column="1">
+              <widget class="QLabel" name="search_icon">
+               <property name="text">
+                <string> 搜索 </string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QLineEdit" name="right_bar_widget_search_input">
+               <property name="placeholderText">
+                <string> 请输入歌手名字或者歌曲的名字点击回车进行搜索</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap>WinForm开发经典图标素材 3870个图标/icon(3800)/boxtrapper.png</pixmap>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QWidget" name="widget" native="true">
+            <layout class="QGridLayout" name="gridLayout_12">
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>300</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QPushButton" name="pushButton_8">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>QT小图标/actions/stock_media-rew.png</normaloff>QT小图标/actions/stock_media-rew.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QPushButton" name="pushButton_7">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>QT小图标/actions/media-playback-pause.png</normaloff>QT小图标/actions/media-playback-pause.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QPushButton" name="pushButton_9">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset>
+                 <normaloff>QT小图标/actions/gtk-media-forward-ltr.png</normaloff>QT小图标/actions/gtk-media-forward-ltr.png</iconset>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>299</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image2.qrc"/>
+ </resources>
+ <connections/>
+</ui>

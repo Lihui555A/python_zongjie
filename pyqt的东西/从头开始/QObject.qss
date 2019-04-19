@@ -1,0 +1,5 @@
+QLabel{font-size:30px;color:green}
+QPushButton#button-1{font-size:10px;background-color:red}
+QLabel#notice{font-size:10px;color:grey;border:1px solid gray;border-radius:8px}
+QLabel#notice[notice_level='warning']{color:green;border-color:green}
+QLabel#notice[notice_level='danger']{color:blue;border-color:blue}
